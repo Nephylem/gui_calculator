@@ -12,8 +12,7 @@ class Button(tk.Frame):
 
         input_args['text'] = text
         input_args['command'] = self.on_press
-        # input_args['padx'] = 20
-        # input_args['pady'] = 10
+ 
         self.input = input_class(self, **input_args)
         self.input.grid(sticky=(tk.W, tk.E))
 
